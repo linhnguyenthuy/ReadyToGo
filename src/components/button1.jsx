@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-function OnClick({ onClickStates, setOnClickStates }) {
+function OnClick() {
   const [buttonColor1, setButtonColor1] = useState("white");
   const [buttonColor2, setButtonColor2] = useState("blue");
 
